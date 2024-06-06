@@ -1,0 +1,191 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\abd elhamid\Desktop\library\my-library-app\src\assets\images\backround1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+    top: 20px; /* Déplacer de 20 pixels vers le bas */
+    left: 80px;
+}
+
+/* Wrapper for the entire form */
+.signup-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px; /* Modifier la largeur */
+    height: 600px; /* Modifier la hauteur */
+    max-width: calc(100% - 40px); /* Empêcher le débordement horizontal */
+    max-height: calc(100% - 40px); /* Empêcher le débordement vertical */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.signup-form{
+    text-align: center;
+    background: transparent;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+}
+
+/* Form title */
+.signup-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+/* Input box styling */
+.signup-input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+/* Input fields */
+/* Media Queries pour les écrans plus petits */
+.signup-input-box input[type="text"],
+.signup-input-box input[type="email"],
+.signup-input-box input[type="password"],
+.signup-input-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0;
+    border: 1px solid rgba(204, 204, 204, 0.5); /* Light border for visibility */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    color: black; /* Text color */
+}
+
+.signup-input-box input[type="text"]::placeholder,
+.signup-input-box input[type="email"]::placeholder,
+
+.signup-input-box input[type="password"]::placeholder,
+.signup-input-box select::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder color */
+}
+
+/* Confirm password label */
+.confirm-password-label {
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    margin: -8px 5px;
+}
+
+/* Error message */
+.signup-error-message {
+    color: white; /* Change error message color to white */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Dropdown label */
+.signup-input-box label {
+    color: white;
+    margin-bottom: 0px;
+    display: block; /* Ensure it takes a full line */
+   /* Adjust this value to move the label down or up */
+    margin-left: 0px; /* Adjust this value to move the label left or right */
+    margin: 10px;
+}
+
+.signup-input-box {
+    margin: 25px;
+}
+
+/* Link container */
+.signup-register-link {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    margin: 30px 0;
+}
+
+/* Links */
+.signup-register-link a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold; /* Make link text bold */
+    margin: 20px px;
+}
+
+.signup-register-link a:hover {
+    text-decoration: underline;
+    margin: 30px;
+}
+
+/* Submit button */
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Ajusté pour un rayon plus raisonnable */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: -20px; /* Haut, Droite, Bas, Gauche */
+}
+
+.signup-button:hover {
+    background-color: blueviolet;
+}
+
+    
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

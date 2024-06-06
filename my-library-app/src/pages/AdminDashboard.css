@@ -1,0 +1,123 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Titres */
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Formulaires */
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+}
+
+input, textarea, select, button {
+    display: block;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+   /* background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;s
+    transition: background-color 0.3s ease;*/
+    display: inline-block;
+    background-color: hsl(230, 62%, 56%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    transition: box-shadow .4s;
+    padding: 5px 10px; /* Réduire la taille des boutons */
+    font-size: 14px; /* Réduire la taille de la police */
+    width: auto; /* Ajuster la largeur */
+  
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Liste */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button.edit, button.delete {
+    width: auto;
+    margin-left: 10px;
+}
+
+button.edit {
+    background-color: #ffc107;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}

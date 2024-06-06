@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    width: 180vh;
+}
+
+.login-page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 80%;
+    padding: 40px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.login-form1 {
+    text-align: center;
+    background: transparent;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+}
+
+
+.login-input-group1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.login-input-group1 input[type="email"],
+.login-input-group1 input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    padding-left: 40px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 16px;
+}
+
+.login-icon1 {
+    position: absolute;
+    right: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.login-input-group1 input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.login-options1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-options1 a {
+    color: blue;
+    text-decoration: none;
+}
+
+.login-options1 a:hover {
+    text-decoration: underline;
+}
+
+.login-button1 {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.login-button1:hover {
+    background-color: #0056b3;
+}
+
+.login-register-link1 {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+}
+
+.login-register-link1 a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.login-register-link1 a:hover {
+    text-decoration: underline;
+}

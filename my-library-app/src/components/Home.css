@@ -1,0 +1,60 @@
+/*=============== HOME ===============*/
+
+.home__swiper{
+    margin: initial; 
+}
+   .home__container{
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 1300px;
+    row-gap: 2.5rem;
+    top: 8rem;
+    left: 8rem;
+
+    
+  }
+  .home__swiper {
+    display: flex;
+    overflow-x: auto; /* Permet le défilement horizontal si nécessaire */
+    scroll-snap-type: x mandatory; /* Force le défilement à s'arrêter à chaque article */
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+    gap: 20px; /* Ajoute un espace entre les articles */
+    scroll-snap-type: inherit; /* Hérite du comportement scroll-snap-type du parent */
+  }
+  
+  .home__article {
+    flex: 0 0 auto; /* Ajuste la taille des articles en fonction de leur contenu */
+    scroll-snap-align: start; /* Aligne chaque article au début du conteneur */
+  }
+  
+  .home__data{
+    text-align: center;
+  }
+  .home__title{
+    font-size: var(--biggest-font-size);
+    margin-bottom: 1rem;
+  }
+  .home__description{
+    margin-bottom: 2rem;
+  }
+  .home__images{
+    display: grid;
+  }
+  .home__article,
+  .home__img{
+    width: 220px;
+    transition : scale .4s;
+
+  }
+  .home__article{
+    scale: .8;
+  }
+  /* Swiper class */
+  .swiper-slide-active,
+  .swiper-slide-duplicate-active{
+    scale: 1;
+  }
+  
